@@ -33,7 +33,10 @@ It is a static site with no build step and no dependencies:
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
-It can be hosted on GitHub Pages, an LMS (as a web package/link) or any web server.
+**Live site:** https://eremedic.github.io/Indiana-Weselyan-University-Faculty-and-Student-AI-training/ —
+deployed by `.github/workflows/pages.yml` on every push (Settings → Pages → Source must be **GitHub Actions**).
+
+It can also be hosted an LMS (as a web package/link) or any web server.
 Progress is saved in the browser's `localStorage` (per track); there is no server or account.
 
 ## Structure
