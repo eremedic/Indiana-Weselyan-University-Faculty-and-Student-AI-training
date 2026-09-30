@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IWU – AI Training | Indiana Wesleyan University</title>
+  <meta name="description" content="Indiana Wesleyan University generative AI training for faculty, staff and students.">
+  <link rel="icon" type="image/png" href="assets/img/iwu-seal.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/iwu-wordmark.png" alt="Indiana Wesleyan University">
+        <span class="program">AI Training</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="inner">
+      <div class="eyebrow">Indiana Wesleyan University &middot; Generative AI Task Force</div>
+      <h1>IWU &ndash; AI Training</h1>
+      <p class="lead">Learn to use generative AI with integrity, wisdom and care. This training is built on IWU&rsquo;s five-level assignment policy and the Virtuous Business Model (VBM) &ndash; NIST AI decision framework. Choose your path to begin.</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="choose">
+      <div class="choose-grid">
+        <article class="path-card">
+          <div class="body">
+            <div class="tag">For those who teach, lead &amp; serve</div>
+            <h2>Faculty &amp; Staff</h2>
+            <p>Set clear AI expectations for every assignment, design assessments that make student thinking visible, use AI responsibly in your own work, and apply the VBM&ndash;NIST framework to AI decisions.</p>
+            <ul>
+              <li>Selecting and communicating the five use levels</li>
+              <li>Grading, feedback and academic-integrity decisions</li>
+              <li>Protecting student and institutional data</li>
+              <li>Evaluating AI tools with GOVERN, MAP, MEASURE, MANAGE</li>
+            </ul>
+            <div class="meta"><span>6 modules</span><span>Interactive lessons</span><span>20-question final exam</span></div>
+          </div>
+          <div class="foot">
+            <a class="btn" href="faculty.html">Start Faculty &amp; Staff Training</a>
+            <span class="progress-note" id="p-faculty"></span>
+          </div>
+        </article>
+
+        <article class="path-card student">
+          <div class="body">
+            <div class="tag">For undergraduate, graduate &amp; online learners</div>
+            <h2>Students</h2>
+            <p>Understand what generative AI is, what each assignment level lets you do, how to verify AI output, protect privacy, disclose honestly, and use AI to strengthen&mdash;not replace&mdash;your learning.</p>
+            <ul>
+              <li>Knowing your assignment&rsquo;s AI level</li>
+              <li>Spotting fabricated facts and citations</li>
+              <li>Writing clear AI disclosures</li>
+              <li>The pre-submission checklist</li>
+            </ul>
+            <div class="meta"><span>6 modules</span><span>Interactive lessons</span><span>20-question final exam</span></div>
+          </div>
+          <div class="foot">
+            <a class="btn" href="student.html">Start Student Training</a>
+            <span class="progress-note" id="p-student"></span>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2>What guides this training</h2>
+      <div class="pillars">
+        <div class="pillar"><h3>Verify</h3><p>Check sources, citations, calculations and claims. People remain responsible for what they submit.</p></div>
+        <div class="pillar"><h3>Protect</h3><p>Only approved systems may receive protected educational, personal, research or proprietary information.</p></div>
+        <div class="pillar"><h3>Show the work</h3><p>Never fabricate evidence, impersonate someone, or let AI replace the reasoning an assignment tests.</p></div>
+        <div class="pillar"><h3>Keep human decisions</h3><p>Grades, standing and misconduct findings are human decisions. A detector score alone never proves a violation.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>How it works</h2>
+      <div class="pillars">
+        <div class="pillar"><h3>1 &middot; Learn</h3><p>Short lessons with real examples from IWU coursework and campus life.</p></div>
+        <div class="pillar"><h3>2 &middot; Practice</h3><p>Flip cards, scenarios, sorting activities, &ldquo;spot the problem&rdquo; exercises and checklists.</p></div>
+        <div class="pillar"><h3>3 &middot; Check</h3><p>A knowledge check closes every module with instant feedback.</p></div>
+        <div class="pillar"><h3>4 &middot; Certify</h3><p>Pass the 20-question final exam with 80% or better (unlimited retakes) to earn your IWU certificate.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="notice">This training is based on the IWU Generative AI Task Force proposal <em>Generative AI in Coursework</em> (DeVoe School of Business, Team 06, September 2026), which draws on the Virtuous Business Model and the NIST AI Risk Management Framework (AI RMF 1.0). Always follow the use level and rules your instructor sets for each assignment and the university&rsquo;s adopted policies. Progress is stored only in your browser.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <div>&copy; <span id="yr"></span> Indiana Wesleyan University &middot; IWU &ndash; AI Training</div>
+      <img src="assets/img/iwu-bobcat.png" alt="IWU Wildcats">
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+    ["faculty", "student"].forEach(function (id) {
+      try {
+        var s = JSON.parse(localStorage.getItem("iwu-ai-training:" + id) || "null");
+        if (!s) return;
+        var n = document.getElementById("p-" + id);
+        if (s.exam && s.exam.passed) n.innerHTML = "&#10003; Completed &mdash; certificate earned";
+        else if (s.seen && Object.keys(s.seen).length) n.textContent = "In progress — pick up where you left off";
+      } catch (e) {}
+    });
+  </script>
+</body>
+</html>
