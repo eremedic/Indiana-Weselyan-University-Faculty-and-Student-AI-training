@@ -1,5 +1,5 @@
 /* IWU – Artificial Intelligence Training | Faculty & Staff course content
-   Source: IWU GenAI Task Force proposal, "Generative AI in Coursework"
+   Source: PBL Team Six, DBA Cohort 15 proposal, "Generative AI in Coursework"
    (Team 06 Executive Report & Presentation, DeVoe School of Business, Sept. 2026). */
 window.IWU_COURSE = {
   id: "faculty",
@@ -7,7 +7,7 @@ window.IWU_COURSE = {
   title: "Leading Responsible Artificial Intelligence at IWU",
   certTitle: "Faculty & Staff Generative Artificial Intelligence Training",
   certLine: "Five-Level Assignment Policy · Human Accountability · VBM–NIST Decision Framework",
-  intro: "Generative AI is already part of our students' and colleagues' daily tools. This course equips IWU faculty and staff to set clear expectations, design learning that keeps student thinking visible, use AI responsibly in their own work, and make values-based decisions about AI tools. It is built on the Generative AI Task Force proposal and the Virtuous Business Model (VBM).",
+  intro: "Generative AI is already part of our students' and colleagues' daily tools. This course equips IWU faculty and staff to set clear expectations, design learning that keeps student thinking visible, use AI responsibly in their own work, and make values-based decisions about AI tools. It is built on the generative AI proposal by PBL Team Six, DBA Cohort 15 and the Virtuous Business Model (VBM).",
   modules: [
     /* ======================= MODULE 1 ======================= */
     {
@@ -39,7 +39,7 @@ window.IWU_COURSE = {
         {
           title: "Why neither a ban nor a free-for-all",
           blocks: [
-            { type: "html", html: "<p>After reviewing the research and the practice of peer institutions, the Task Force concluded that IWU should <strong>neither adopt a blanket ban nor allow unrestricted use</strong>.</p>" },
+            { type: "html", html: "<p>After reviewing the research and the practice of peer institutions, PBL Team Six, DBA Cohort 15 concluded that IWU should <strong>neither adopt a blanket ban nor allow unrestricted use</strong>.</p>" },
             { type: "compare", title: "Two approaches that fail", bad: { title: "Blanket ban", html: "<ul><li>Difficult to enforce as AI is embedded in ordinary software</li><li>AI detectors are not reliable enough to prove misconduct</li><li>Leaves students unprepared for AI-rich workplaces</li></ul>" }, good: { title: "Unrestricted use", html: "<ul><li>Can weaken the reasoning and research practices coursework is meant to build</li><li>Students delegate thinking and produce unreflective work</li><li>Obscures who actually authored the work</li></ul>" } },
             { type: "callout", title: "The IWU answer", html: "A <strong>five-level, assignment-specific use-and-disclosure policy</strong> directed by faculty, with source verification that preserves the learner's reasoning and accountability—supported by a university review process (the VBM–NIST framework) for AI tools and uses." },
             { type: "html", html: "<p>Research consistently shows that GenAI's educational effect depends less on <em>whether</em> it is present and more on <strong>how</strong> people interact with it, <strong>what part</strong> of the intellectual work remains theirs, and <strong>how the assessment is designed</strong>. Students recognize both the benefits and the risks, but most are unclear about the exact boundaries for use and disclosure. Clear, assignment-level expectations solve that problem.</p>" },
@@ -98,7 +98,7 @@ window.IWU_COURSE = {
       quiz: [
         { q: "Which statement best defines generative AI?", options: ["AI that produces new text, images, audio, code or other content by analyzing data patterns", "Any software that automates a routine task", "A search engine that retrieves verified sources", "A database of peer-reviewed research"], a: 0, explain: "GenAI creates new content from patterns in data." },
         { q: "Why does IWU's policy focus on functions rather than product names?", options: ["The same capability appears in many changing tools, so rules tied to brands quickly become outdated", "Brand names are trademarked and cannot be listed", "Only one product is approved at IWU", "Functions are easier for detectors to identify"], a: 0, explain: "The market changes rapidly; policy should address what a tool does." },
-        { q: "What did the Task Force conclude about a blanket ban on GenAI?", options: ["It is difficult to enforce and detectors are not reliable enough to support it", "It is the safest option for all courses", "It should apply only to online courses", "It is required by accrediting bodies"], a: 0, explain: "A ban is hard to enforce, and detectors are unreliable." },
+        { q: "What did PBL Team Six conclude about a blanket ban on GenAI?", options: ["It is difficult to enforce and detectors are not reliable enough to support it", "It is the safest option for all courses", "It should apply only to online courses", "It is required by accrediting bodies"], a: 0, explain: "A ban is hard to enforce, and detectors are unreliable." },
         { q: "Why can GenAI never be listed as an author?", options: ["It cannot accept responsibility or scholarly accountability", "Its text is always too short", "Publishers charge extra for AI authors", "It writes only in English"], a: 0, explain: "Authorship requires accountability that AI cannot hold." },
         { q: "Which is IWU's response to the 'Security' concern?", options: ["Use closed, IWU-approved tools for protected, personal or proprietary data", "Ask students to delete their chat history", "Use only free AI tools", "Rely on the vendor's privacy statement"], a: 0, explain: "Protected data may only go into approved, closed systems." }
       ]
@@ -503,7 +503,7 @@ window.IWU_COURSE = {
   /* ======================= FINAL EXAM BANK (20 drawn per attempt) ======================= */
   exam: [
     { topic: "Module 1 · Foundations", q: "Large language models generate text by:", options: ["Predicting probable sequences of words in response to a prompt", "Looking up verified answers in a database", "Copying text from a single trusted source", "Understanding meaning the way a scholar does"], a: 0 },
-    { topic: "Module 1 · Foundations", q: "Which best describes the Task Force's overall recommendation?", options: ["Neither a blanket ban nor unrestricted use, but a five-level, assignment-specific policy", "A complete ban on GenAI in coursework", "Unrestricted use with no disclosure", "Leave all decisions to AI vendors"], a: 0 },
+    { topic: "Module 1 · Foundations", q: "Which best describes PBL Team Six's overall recommendation?", options: ["Neither a blanket ban nor unrestricted use, but a five-level, assignment-specific policy", "A complete ban on GenAI in coursework", "Unrestricted use with no disclosure", "Leave all decisions to AI vendors"], a: 0 },
     { topic: "Module 1 · Foundations", q: "Why does IWU policy address AI functions rather than brand names?", options: ["Capabilities appear across many rapidly changing products", "Brand names change every week by law", "Only one brand exists", "Functions are cheaper to license"], a: 0 },
     { topic: "Module 1 · Foundations", q: "Who is responsible for work submitted with AI assistance?", options: ["The person who submits it", "The AI vendor", "The AI tool as co-author", "The IT department"], a: 0 },
     { topic: "Module 1 · Foundations", q: "Which is IWU's response to the concern that heavy AI use weakens critical thinking?", options: ["Use AI after initial thinking and keep no-AI tasks where mastery requires it", "Ban all writing assignments", "Require AI for every task", "Grade only on formatting"], a: 0 },

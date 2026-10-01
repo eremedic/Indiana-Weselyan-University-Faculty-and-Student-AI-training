@@ -1,6 +1,6 @@
 # IWU – Artificial Intelligence Training
 
-Branded generative-AI training for **Indiana Wesleyan University**, built from the IWU Generative AI Task Force proposal
+Branded generative-AI training for **Indiana Wesleyan University**, built from the proposal by PBL Team Six, DBA Cohort 15
 *Generative AI in Coursework* (Team 06 Executive Report & Presentation, DeVoe School of Business, September 2026).
 
 ## Tracks
