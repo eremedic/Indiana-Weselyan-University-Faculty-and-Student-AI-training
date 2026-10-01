@@ -1,13 +1,13 @@
 /* IWU – Artificial Intelligence Training | Student course content
-   Source: PBL Team Six, DBA Cohort 15 proposal, "Generative AI in Coursework"
-   (Team 06 Executive Report & Presentation, DeVoe School of Business, Sept. 2026). */
+   Source: DBA Cohort 15, PBL Team Six proposal, "Generative AI in Coursework"
+   (Executive Report & Presentation, DeVoe School of Business, Sept. 2026). */
 window.IWU_COURSE = {
   id: "student",
   audience: "Student",
   title: "Learning With Artificial Intelligence, Leading With Integrity",
   certTitle: "Student Generative Artificial Intelligence Training",
   certLine: "Five-Level Assignment Policy · Verification & Disclosure · Responsible, Values-Based AI Use",
-  intro: "Generative AI can be a powerful study partner—or a shortcut that undermines your learning and integrity. This course shows you exactly what IWU expects, how to know what's allowed on each assignment, how to check AI output, protect privacy, disclose honestly, and use AI to grow as a thinker. It follows the generative AI framework proposed by PBL Team Six, DBA Cohort 15, rooted in the Virtuous Business Model.",
+  intro: "Generative AI can be a powerful study partner—or a shortcut that undermines your learning and integrity. This course shows you exactly what IWU expects, how to know what's allowed on each assignment, how to check AI output, protect privacy, disclose honestly, and use AI to grow as a thinker. It follows the generative AI framework proposed by DBA Cohort 15, PBL Team Six, rooted in the Virtuous Business Model.",
   modules: [
     /* ======================= MODULE 1 ======================= */
     {
@@ -40,7 +40,7 @@ window.IWU_COURSE = {
           title: "Helpful and harmful",
           blocks: [
             { type: "compare", title: "Same tool, different outcomes", good: { title: "Supports learning", html: "<ul><li>Explaining a concept you're stuck on, in a different way</li><li>Quizzing you to practice for an exam</li><li>Giving feedback on a draft you wrote</li><li>Brainstorming after you've done your own thinking</li><li>Translation and accessibility support</li></ul>" }, bad: { title: "Undermines learning", html: "<ul><li>Writing your answers, arguments or analysis for you</li><li>Inventing sources you never read</li><li>Summarizing readings you skip</li><li>Solving problems you're supposed to learn to solve</li><li>Hiding who actually did the work</li></ul>" } },
-            { type: "html", html: "<p>Research shows the effect of AI on learning depends on <strong>how</strong> you use it and <strong>whether you keep doing the thinking</strong>. When PBL Team Six, DBA Cohort 15 compared literature reviews written with and without AI, they found students learned more when they <em>kept cognitive responsibility, questioned the output, and revised with purpose</em>—not when they handed off the core task.</p>" },
+            { type: "html", html: "<p>Research shows the effect of AI on learning depends on <strong>how</strong> you use it and <strong>whether you keep doing the thinking</strong>. When DBA Cohort 15, PBL Team Six compared literature reviews written with and without AI, they found students learned more when they <em>kept cognitive responsibility, questioned the output, and revised with purpose</em>—not when they handed off the core task.</p>" },
             { type: "classify", title: "Learning partner or shortcut?", instructions: "For each use, decide whether it supports your learning or replaces it. (Whether it's <em>allowed</em> still depends on your assignment's level.)", options: ["Supports learning", "Replaces learning"], items: [
               { t: "Asking AI to explain supply and demand using a sports example after you read the chapter.", a: 0, why: "You're using AI as a tutor to deepen understanding." },
               { t: "Pasting the discussion prompt into AI and posting its answer.", a: 1, why: "AI did the thinking the discussion was designed to build." },
@@ -290,7 +290,7 @@ window.IWU_COURSE = {
         {
           title: "Think first, then prompt",
           blocks: [
-            { type: "html", html: "<p>PBL Team Six, DBA Cohort 15 recommends using AI <strong>after</strong> your initial thinking. When you think first, AI becomes a sparring partner that sharpens your ideas. When you prompt first, AI's ideas quietly become yours—and you lose the learning.</p>" },
+            { type: "html", html: "<p>DBA Cohort 15, PBL Team Six recommends using AI <strong>after</strong> your initial thinking. When you think first, AI becomes a sparring partner that sharpens your ideas. When you prompt first, AI's ideas quietly become yours—and you lose the learning.</p>" },
             { type: "chat", title: "Prompting to learn (Level 3 assignment)", turns: [
               { who: "Student", t: "I'm studying for my macroeconomics exam. I think inflation happens when the money supply grows faster than output, but I'm confused about why interest rates matter. Don't give me the answer yet—ask me questions to help me figure it out." },
               { who: "AI", t: "Great starting point! Let's build on it. If borrowing money becomes more expensive, what do you think happens to how much businesses and families spend?" },
@@ -336,7 +336,7 @@ window.IWU_COURSE = {
         }
       ],
       quiz: [
-        { q: "PBL Team Six, DBA Cohort 15 recommends using AI:", options: ["After your initial thinking", "Before you read the assignment", "Instead of reading", "Only at night"], a: 0, explain: "Think first, then use AI to sharpen your work." },
+        { q: "DBA Cohort 15, PBL Team Six recommends using AI:", options: ["After your initial thinking", "Before you read the assignment", "Instead of reading", "Only at night"], a: 0, explain: "Think first, then use AI to sharpen your work." },
         { q: "Which prompt best supports learning?", options: ["\"Here's my argument—what's the strongest counterargument I missed?\"", "\"Write my discussion post.\"", "\"Solve problems 1–10.\"", "\"Summarize the chapter so I don't have to read it.\""], a: 0, explain: "It keeps the thinking yours." },
         { q: "In a human–AI comparison assignment, you:", options: ["Write your own answer first, then critique an AI answer against it", "Submit the AI answer as your own", "Ask AI to compare two of its own answers only", "Skip the writing part"], a: 0, explain: "Your independent response comes first." },
         { q: "Can an AI-detection score alone prove misconduct at IWU?", options: ["No, it may only prompt further review", "Yes, if above 90%", "Yes, always", "Only in online courses"], a: 0, explain: "Detectors are unreliable; humans decide using all evidence." },

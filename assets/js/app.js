@@ -816,7 +816,7 @@
       '<div class="cert-foot">' +
       '<div class="sig"><div class="val">' + fmtDate(state.exam.passedAt) + '</div><div class="line">Date awarded</div></div>' +
       '<img class="seal" src="assets/img/iwu-seal.png" alt="Indiana Wesleyan University seal">' +
-      '<div class="sig"><div class="val">PBL Team Six, DBA Cohort 15</div><div class="line">Indiana Wesleyan University</div></div>' +
+      '<div class="sig"><div class="val">DBA Cohort 15 &middot; PBL Team Six</div><div class="line">DeVoe School of Business</div></div>' +
       "</div></div>" +
       '<div class="cert-id">Certificate ID ' + esc(state.exam.certId) + "</div>";
     sizer.appendChild(cert);
@@ -884,7 +884,7 @@
       x.fillStyle = dark; x.font = (17 * k) + "px 'Cormorant Garamond', Georgia, serif";
       x.fillText(COURSE.certLine, W / 2, 482 * k, 900 * k);
       x.drawImage(seal, W / 2 - 70 * k, 590 * k, 140 * k, 140 * k);
-      [[W / 2 - 290 * k, fmtDate(state.exam.passedAt), "DATE AWARDED"], [W / 2 + 290 * k, "PBL Team Six, DBA Cohort 15", "INDIANA WESLEYAN UNIVERSITY"]].forEach(function (s) {
+      [[W / 2 - 290 * k, fmtDate(state.exam.passedAt), "DATE AWARDED"], [W / 2 + 290 * k, "DBA Cohort 15 · PBL Team Six", "DEVOE SCHOOL OF BUSINESS"]].forEach(function (s) {
         x.fillStyle = dark; x.font = "italic " + (21 * k) + "px 'Cormorant Garamond', Georgia, serif";
         x.fillText(s[1], s[0], 690 * k);
         x.strokeStyle = dark; x.lineWidth = 1.5 * k; x.beginPath(); x.moveTo(s[0] - 170 * k, 702 * k); x.lineTo(s[0] + 170 * k, 702 * k); x.stroke();

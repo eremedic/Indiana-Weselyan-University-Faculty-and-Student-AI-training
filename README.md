@@ -1,7 +1,7 @@
 # IWU – Artificial Intelligence Training
 
-Branded generative-AI training for **Indiana Wesleyan University**, built from the proposal by PBL Team Six, DBA Cohort 15
-*Generative AI in Coursework* (Team 06 Executive Report & Presentation, DeVoe School of Business, September 2026).
+Branded generative-AI training for **Indiana Wesleyan University**, built from the proposal by DBA Cohort 15, PBL Team Six
+*Generative AI in Coursework* (Executive Report & Presentation, DeVoe School of Business, September 2026).
 
 ## Tracks
 
@@ -56,3 +56,8 @@ The pass mark and exam length are `PASS_PCT` and `EXAM_LEN` at the top of `app.j
 
 > Content reflects a task-force *proposal*. Learners are told to follow the level and rules their instructor sets and the
 > university's adopted policies.
+
+## Credits
+
+Developed by **DBA Cohort 15, PBL Team Six** — Doctor of Business Administration, DeVoe School of Business, Indiana Wesleyan University:
+Chad Scott, Greg Mason, Shannel Mason and Denice Viktoria Staaf.
