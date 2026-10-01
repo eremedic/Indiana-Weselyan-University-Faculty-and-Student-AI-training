@@ -917,7 +917,7 @@
   }
 
   /* ---------- boot ---------- */
-  document.title = COURSE.title + " | IWU – Artificial Intelligence Training";
+  document.title = COURSE.title + " | Artificial Intelligence Training";
   $("#course-title").textContent = COURSE.title;
   $("#course-eyebrow").textContent = COURSE.audience + " Training Module";
   if (COURSE.id === "student") $(".course-banner").classList.add("student");
