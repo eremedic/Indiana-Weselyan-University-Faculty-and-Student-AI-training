@@ -1,5 +1,5 @@
 /* =========================================================
-   IWU – AI Training  |  course engine
+   IWU – Artificial Intelligence Training  |  course engine
    Renders a course definition (window.IWU_COURSE) into lessons,
    interactive activities, knowledge checks, a final exam and a
    branded certificate. Progress is saved in localStorage.
@@ -807,7 +807,7 @@
       '<div class="cert-body">' +
       '<img class="wordmark" src="assets/img/iwu-wordmark.png" alt="Indiana Wesleyan University">' +
       '<div class="cert-title">Certificate of Completion</div>' +
-      '<div class="cert-sub">IWU &middot; AI Training</div>' +
+      '<div class="cert-sub">IWU &middot; Artificial Intelligence Training</div>' +
       '<div class="presented">This certifies that</div>' +
       '<div class="recipient">' + esc(state.name) + "</div>" +
       '<div class="for">has successfully completed all modules and passed the final examination with a score of ' + state.exam.best + "% in</div>" +
@@ -870,7 +870,7 @@
       x.fillStyle = crimson; x.font = "600 " + (50 * k) + "px Oswald, Arial Narrow, sans-serif";
       spaced(x, "CERTIFICATE OF COMPLETION", W / 2, 182 * k, 6 * k, 820 * k);
       x.fillStyle = gray; x.font = (16 * k) + "px Oswald, Arial Narrow, sans-serif";
-      spaced(x, "IWU · AI TRAINING", W / 2, 214 * k, 5.6 * k);
+      spaced(x, "IWU · ARTIFICIAL INTELLIGENCE TRAINING", W / 2, 214 * k, 5.6 * k, 820 * k);
       x.fillStyle = dark; x.font = "italic " + (22 * k) + "px 'Cormorant Garamond', Georgia, serif";
       x.fillText("This certifies that", W / 2, 272 * k);
       x.fillStyle = "#1f2023"; x.font = "600 " + (58 * k) + "px 'Cormorant Garamond', Georgia, serif";
@@ -893,7 +893,7 @@
       x.fillStyle = "#5d5f63"; x.font = (11.5 * k) + "px 'Source Sans 3', Arial, sans-serif";
       x.fillText("Certificate ID " + state.exam.certId, W / 2, 770 * k);
       var a = document.createElement("a");
-      a.download = "IWU-AI-Training-Certificate-" + state.name.replace(/[^a-z0-9]+/gi, "-") + ".png";
+      a.download = "IWU-Artificial-Intelligence-Training-Certificate-" + state.name.replace(/[^a-z0-9]+/gi, "-") + ".png";
       a.href = cv.toDataURL("image/png");
       document.body.appendChild(a); a.click(); a.remove();
       toast("Certificate downloaded.");
@@ -917,7 +917,7 @@
   }
 
   /* ---------- boot ---------- */
-  document.title = COURSE.title + " | IWU – AI Training";
+  document.title = COURSE.title + " | IWU – Artificial Intelligence Training";
   $("#course-title").textContent = COURSE.title;
   $("#course-eyebrow").textContent = COURSE.audience + " Training Module";
   if (COURSE.id === "student") $(".course-banner").classList.add("student");

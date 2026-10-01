@@ -414,3 +414,8 @@ h2[tabindex="-1"]:focus { outline: none; }
   .header-actions .btn { padding: 6px 9px; font-size: .75rem; }
   .course-banner h1 { font-size: 1.6rem; }
 }
+.certificate .course-name { font-size: 1.32rem; white-space: nowrap; }
+.brand img { flex-shrink: 0; object-fit: contain; }
+@media (max-width: 640px) {
+  .site-header .inner { flex-wrap: wrap; justify-content: center; padding: 10px 16px; gap: 10px; }
+}

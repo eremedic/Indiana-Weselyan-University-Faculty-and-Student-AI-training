@@ -1,4 +1,4 @@
-# IWU – AI Training
+# IWU – Artificial Intelligence Training
 
 Branded generative-AI training for **Indiana Wesleyan University**, built from the IWU Generative AI Task Force proposal
 *Generative AI in Coursework* (Team 06 Executive Report & Presentation, DeVoe School of Business, September 2026).
@@ -8,8 +8,8 @@ Branded generative-AI training for **Indiana Wesleyan University**, built from t
 | Page | Audience | Course |
 |---|---|---|
 | `index.html` | Everyone | Landing page – choose **Faculty & Staff** or **Student** |
-| `faculty.html` | Faculty & Staff | *Leading Responsible AI at IWU* – 6 modules, 21 lessons |
-| `student.html` | Students | *Learning With AI, Leading With Integrity* – 6 modules, 18 lessons |
+| `faculty.html` | Faculty & Staff | *Leading Responsible Artificial Intelligence at IWU* – 6 modules, 21 lessons |
+| `student.html` | Students | *Learning With Artificial Intelligence, Leading With Integrity* – 6 modules, 18 lessons |
 
 Each track includes:
 

@@ -1,11 +1,11 @@
-/* IWU – AI Training | Faculty & Staff course content
+/* IWU – Artificial Intelligence Training | Faculty & Staff course content
    Source: IWU GenAI Task Force proposal, "Generative AI in Coursework"
    (Team 06 Executive Report & Presentation, DeVoe School of Business, Sept. 2026). */
 window.IWU_COURSE = {
   id: "faculty",
   audience: "Faculty & Staff",
-  title: "Leading Responsible AI at IWU",
-  certTitle: "Faculty & Staff Generative AI Training",
+  title: "Leading Responsible Artificial Intelligence at IWU",
+  certTitle: "Faculty & Staff Generative Artificial Intelligence Training",
   certLine: "Five-Level Assignment Policy · Human Accountability · VBM–NIST Decision Framework",
   intro: "Generative AI is already part of our students' and colleagues' daily tools. This course equips IWU faculty and staff to set clear expectations, design learning that keeps student thinking visible, use AI responsibly in their own work, and make values-based decisions about AI tools. It is built on the Generative AI Task Force proposal and the Virtuous Business Model (VBM).",
   modules: [

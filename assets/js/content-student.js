@@ -1,11 +1,11 @@
-/* IWU – AI Training | Student course content
+/* IWU – Artificial Intelligence Training | Student course content
    Source: IWU GenAI Task Force proposal, "Generative AI in Coursework"
    (Team 06 Executive Report & Presentation, DeVoe School of Business, Sept. 2026). */
 window.IWU_COURSE = {
   id: "student",
   audience: "Student",
-  title: "Learning With AI, Leading With Integrity",
-  certTitle: "Student Generative AI Training",
+  title: "Learning With Artificial Intelligence, Leading With Integrity",
+  certTitle: "Student Generative Artificial Intelligence Training",
   certLine: "Five-Level Assignment Policy · Verification & Disclosure · Responsible, Values-Based AI Use",
   intro: "Generative AI can be a powerful study partner—or a shortcut that undermines your learning and integrity. This course shows you exactly what IWU expects, how to know what's allowed on each assignment, how to check AI output, protect privacy, disclose honestly, and use AI to grow as a thinker. It follows IWU's Generative AI Task Force framework, rooted in the Virtuous Business Model.",
   modules: [
