@@ -493,3 +493,8 @@ h2[tabindex="-1"]:focus { outline: none; }
   .hero::after { width: 360px; height: 360px; right: max(20px, calc((100% - 1200px) / 2 + 20px)); opacity: .22; }
   .hero h1, .hero p.lead { max-width: min(780px, calc(100% - 400px)); }
 }
+
+/* Hero: title first, credit badge directly beneath it */
+.hero .inner { padding-top: 48px; }
+.hero h1 { margin: 0 0 16px; }
+.hero .credit-pill { margin: 0 0 20px; }
